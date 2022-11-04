@@ -1,33 +1,21 @@
-# ML_Project_1
-Regression: https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
+# Regressor Model to Predict Power Consumption
+## Project Objective
 
+**1. Perform EDA and FE and store the cleaned data to "MongoDB".**
 
-Classification:https://archive.ics.uci.edu/ml/datasets/Census+Income
+**2. Build a Regressor Model that will be able to predict "Power Consumed by Individual Households"
+using each of following Algorithms:**
 
+    1.1) Linear Regression Algorithm
 
+    1.2) Ridge Regression Algorithm
 
-Data ingestion
-Detail EDA
-Preprocessing
-Pickling for the preprocessing object(save the preprocessing model)refers to the logistic regression file which I have shared with you.
-After preprocessing you have to store data inside MONGODB
+    1.3) Lasso Regression Algorithm
 
-You have to load the data from mongo db for model building in a separate ipynb file.
-Now do model building with a given algorithm for the respective dataset.
+    1.4) Elastic Net Regression Algorithm
 
-Regression:linear regression,ridge regression,lasso regression,elastic net, support vector regression
+    1.5) SVR Algorithm
 
-Classification: logistic regression,SVM(kernels=RBF,Polynomial,sigmoid)
+**3. Have to perform Hyperparameter tuning using "Grid search CV"**
 
-Hyperparameter tuning is mandatory(GRID SEARCH CV)
-
-Evaluation of the model
-Regression evaluation matrix: R2 and adjusted R2
-Classification confusion matrix, ROC AUC score
-
-
-Submission form link: https://forms.gle/2PJSSCmL9S865nwe8
-
-Deadline till saturday 12AM IST
-
-USE IDE: jupyter notebook
+**4. Evaluate the performance of the Model using MAE, RMSE, R2 and adjusted R2**
